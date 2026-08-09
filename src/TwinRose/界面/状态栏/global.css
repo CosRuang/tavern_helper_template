@@ -1,0 +1,55 @@
+:root {
+  /* 暗夜哥特 · 功能语义色彩变量 */
+  --c-primary: #b8860b;      /* 古金：纹章与烛火的暖光 */
+  --c-accent: #8b0000;       /* 暗红：蔷薇与血色的堕落 */
+  --c-surface: #1a1412;      /* 炭黑褐：古堡石墙与阴影 */
+  --c-surface-2: #241c18;    /* 深褐：旧木与帷幔 */
+  --c-surface-3: #2e2520;    /* 浅褐：卡片内层 */
+  --c-text: #e8dcc8;         /* 羊皮纸白：烛光下的纸页 */
+  --c-text-muted: #8a7a68;   /* 暗米褐：阴影处的旧物 */
+  --c-border: #3d2f24;       /* 锈褐：铸铁与旧铜 */
+  --c-danger: #6b2d1f;       /* 陈血：侵蚀与警戒 */
+  --c-silk: #d4b483;         /* 缎金：伊莲娜侧强调 */
+  --c-rose: #c76b8a;         /* 胭脂：里克侧强调 */
+
+  --font-title: Georgia, 'Times New Roman', 'Songti SC', 'STSong', serif;
+  --font-body: 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Noto Sans SC', sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  background: transparent;
+  font-family: var(--font-body);
+  color: var(--c-text);
+  font-size: 13px;
+  line-height: 1.5;
+}
+
+#app {
+  width: 100%;
+}
+
+/* 细滚动条，适配暗色 */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--c-surface);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--c-border);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--c-primary);
+}
