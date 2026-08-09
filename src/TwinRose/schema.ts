@@ -28,10 +28,10 @@ export const Schema = z.object({
     忠诚度: z.coerce.number().prefault(0).transform(v => _.clamp(v, 0, 100)),
     淫乱度: z.coerce.number().prefault(0).transform(v => _.clamp(v, 0, 100)),
     阶段: z.coerce.number().prefault(1).transform(v => _.clamp(v, 1, 6)),
-    阶段称号: z.string().prefault('嘴硬的少爷'),
+    阶段称号: z.string().prefault('被惯坏的小少爷'),
     动态称号: z.array(z.string()).prefault([]),
     着装: z.string().prefault('浅色衬衫配马甲，袖口挽起'),
-    状态: z.string().prefault('别扭好奇，眼睛总往管家那边飘，被问起就说「我才没看」'),
+    状态: z.string().prefault('骄纵好奇，对管家摆少爷架子，眼睛却总往那边飘'),
     身体部位: z.record(z.enum(['嘴唇', '舌', '耳', '颈', '胸', '乳首', '腰', '背', '腹', '臀', '大腿', '足', '茎身', '后穴']), z.object({
       开发状态: z.enum(['未开发', '初觉', '适应', '沉溺', '彻底开发']).prefault('未开发'),
       道具: z.string().prefault('无'),
