@@ -1,0 +1,308 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "properties": {
+    "世界": {
+      "type": "object",
+      "properties": {
+        "当前时间": {
+          "default": "6月1日 午后",
+          "type": "string"
+        },
+        "当前区域": {
+          "default": "主堡大厅",
+          "type": "string",
+          "enum": [
+            "主堡大厅",
+            "宴会厅",
+            "藏书室",
+            "蔷薇花园",
+            "礼拜堂",
+            "马厩与猎场",
+            "琴房",
+            "主卧室区",
+            "大浴室",
+            "厨房与仆役区",
+            "酒窖",
+            "塔楼密室"
+          ]
+        },
+        "宴会状态": {
+          "default": "无",
+          "type": "string"
+        },
+        "事件日志": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "近期目标": {
+          "default": "以完美管家形象站稳脚跟，取得姐弟信任",
+          "type": "string"
+        }
+      }
+    },
+    "伊莲娜": {
+      "type": "object",
+      "properties": {
+        "堕落值": {
+          "default": 0,
+          "type": "number"
+        },
+        "忠诚度": {
+          "default": 0,
+          "type": "number"
+        },
+        "淫乱度": {
+          "default": 0,
+          "type": "number"
+        },
+        "阶段": {
+          "default": 1,
+          "type": "number"
+        },
+        "阶段称号": {
+          "default": "戒备的蔷薇",
+          "type": "string"
+        },
+        "动态称号": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "着装": {
+          "default": "素色长裙，珍珠项链，领口扣到最上一颗",
+          "type": "string"
+        },
+        "状态": {
+          "default": "端庄得体，对新管家保持审视",
+          "type": "string"
+        },
+        "身体部位": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "enum": [
+              "嘴唇",
+              "舌",
+              "耳",
+              "颈",
+              "胸",
+              "乳首",
+              "腰",
+              "背",
+              "腹",
+              "臀",
+              "大腿",
+              "足",
+              "花蕊",
+              "后穴"
+            ]
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "开发状态": {
+                "default": "未开发",
+                "type": "string",
+                "enum": [
+                  "未开发",
+                  "初觉",
+                  "适应",
+                  "沉溺",
+                  "彻底开发"
+                ]
+              },
+              "道具": {
+                "default": "无",
+                "type": "string"
+              },
+              "备注": {
+                "default": "",
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "嘴唇",
+            "舌",
+            "耳",
+            "颈",
+            "胸",
+            "乳首",
+            "腰",
+            "背",
+            "腹",
+            "臀",
+            "大腿",
+            "足",
+            "花蕊",
+            "后穴"
+          ]
+        },
+        "穿戴道具": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "性癖": {
+          "default": [
+            "端庄失态快感",
+            "权力反转快感"
+          ],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "里克": {
+      "type": "object",
+      "properties": {
+        "堕落值": {
+          "default": 0,
+          "type": "number"
+        },
+        "忠诚度": {
+          "default": 0,
+          "type": "number"
+        },
+        "淫乱度": {
+          "default": 0,
+          "type": "number"
+        },
+        "阶段": {
+          "default": 1,
+          "type": "number"
+        },
+        "阶段称号": {
+          "default": "嘴硬的少爷",
+          "type": "string"
+        },
+        "动态称号": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "着装": {
+          "default": "浅色衬衫配马甲，袖口挽起",
+          "type": "string"
+        },
+        "状态": {
+          "default": "别扭好奇，眼睛总往管家那边飘，被问起就说「我才没看」",
+          "type": "string"
+        },
+        "身体部位": {
+          "default": {},
+          "type": "object",
+          "propertyNames": {
+            "type": "string",
+            "enum": [
+              "嘴唇",
+              "舌",
+              "耳",
+              "颈",
+              "胸",
+              "乳首",
+              "腰",
+              "背",
+              "腹",
+              "臀",
+              "大腿",
+              "足",
+              "茎身",
+              "后穴"
+            ]
+          },
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "开发状态": {
+                "default": "未开发",
+                "type": "string",
+                "enum": [
+                  "未开发",
+                  "初觉",
+                  "适应",
+                  "沉溺",
+                  "彻底开发"
+                ]
+              },
+              "道具": {
+                "default": "无",
+                "type": "string"
+              },
+              "备注": {
+                "default": "",
+                "type": "string"
+              }
+            }
+          },
+          "required": [
+            "嘴唇",
+            "舌",
+            "耳",
+            "颈",
+            "胸",
+            "乳首",
+            "腰",
+            "背",
+            "腹",
+            "臀",
+            "大腿",
+            "足",
+            "茎身",
+            "后穴"
+          ]
+        },
+        "穿戴道具": {
+          "default": [],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "性癖": {
+          "default": [
+            "全身敏感怕痒",
+            "女性衣物的向往"
+          ],
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "系统": {
+      "type": "object",
+      "properties": {
+        "先堕者": {
+          "default": "未定",
+          "type": "string",
+          "enum": [
+            "未定",
+            "伊莲娜",
+            "里克"
+          ]
+        }
+      }
+    }
+  },
+  "required": [
+    "世界",
+    "伊莲娜",
+    "里克",
+    "系统"
+  ]
+}
