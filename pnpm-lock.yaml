@@ -158,7 +158,11 @@ importers:
         version: 10.10.0(@typescript-eslint/parser@8.66.0(eslint@10.8.1(jiti@2.7.0))(typescript@6.0.3))(eslint@10.8.1(jiti@2.7.0))(vue-eslint-parser@10.4.1(eslint@10.8.1(jiti@2.7.0)))
       eslint-webpack-plugin:
         specifier: ^6.0.0
+<<<<<<< HEAD
         version: 6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.99.9)
+=======
+        version: 6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.109.2)
+>>>>>>> ad523eba6d41b01a9154c98517a61825ef3ea546
       globals:
         specifier: ^17.9.0
         version: 17.9.0
@@ -4507,6 +4511,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
+<<<<<<< HEAD
   '@esbuild/aix-ppc64@0.28.2':
     optional: true
 
@@ -4585,6 +4590,8 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
+=======
+>>>>>>> ad523eba6d41b01a9154c98517a61825ef3ea546
   '@eslint-community/eslint-utils@4.10.1(eslint@10.8.1(jiti@2.7.0))':
     dependencies:
       eslint: 10.8.1(jiti@2.7.0)
@@ -6317,7 +6324,11 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
+<<<<<<< HEAD
   eslint-webpack-plugin@6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.99.9):
+=======
+  eslint-webpack-plugin@6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.109.2):
+>>>>>>> ad523eba6d41b01a9154c98517a61825ef3ea546
     dependencies:
       '@types/eslint': 9.6.1
       eslint: 10.8.1(jiti@2.7.0)
