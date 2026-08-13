@@ -158,7 +158,11 @@ importers:
         version: 10.10.0(@typescript-eslint/parser@8.67.0(eslint@10.8.1(jiti@2.7.0))(typescript@6.0.3))(eslint@10.8.1(jiti@2.7.0))(vue-eslint-parser@10.4.1(eslint@10.8.1(jiti@2.7.0)))
       eslint-webpack-plugin:
         specifier: ^6.0.0
+<<<<<<< HEAD
         version: 6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.99.9)
+=======
+        version: 6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.109.2)
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
       globals:
         specifier: ^17.11.0
         version: 17.11.0
@@ -2324,9 +2328,12 @@ packages:
     resolution: {integrity: sha512-XxwI8EOhVQgWp6iDL+3b0r86f4d6AX6zSU55HfB4ydCEuXLXc5FcYeOu+nnGftS4TEju/11rt4KJPTMgbfmv4A==}
     engines: {node: '>=10.13.0'}
 
+<<<<<<< HEAD
   glob-to-regexp@0.4.1:
     resolution: {integrity: sha512-lkX1HJXwyMcprw/5YUZc2s7DrpAiHB21/V+E1rHUrVNokkvB6bqMzT0VfV6/86ZNabt1k14YOIaT7nDvOX3Iiw==}
 
+=======
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
   globals@17.11.0:
     resolution: {integrity: sha512-Z2I8hM+PbJDXQDq3Icgpzv+mPdwr68iZUU9d5WW4FuXfDUQfkZaZuvjMv42/5crNyw154+9+VWXbYrUgDXbxNw==}
     engines: {node: '>=18'}
@@ -4507,6 +4514,7 @@ snapshots:
       tslib: 2.8.1
     optional: true
 
+<<<<<<< HEAD
   '@esbuild/aix-ppc64@0.28.2':
     optional: true
 
@@ -4585,6 +4593,8 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
+=======
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
   '@eslint-community/eslint-utils@4.10.1(eslint@10.8.1(jiti@2.7.0))':
     dependencies:
       eslint: 10.8.1(jiti@2.7.0)
@@ -6317,7 +6327,11 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
+<<<<<<< HEAD
   eslint-webpack-plugin@6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.99.9):
+=======
+  eslint-webpack-plugin@6.0.0(eslint@10.8.1(jiti@2.7.0))(webpack@5.109.2):
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
     dependencies:
       '@types/eslint': 9.6.1
       eslint: 10.8.1(jiti@2.7.0)
@@ -6563,8 +6577,11 @@ snapshots:
     dependencies:
       is-glob: 4.0.3
 
+<<<<<<< HEAD
   glob-to-regexp@0.4.1: {}
 
+=======
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
   globals@17.11.0: {}
 
   globalthis@1.0.4:
@@ -7429,6 +7446,19 @@ snapshots:
 
   minimist@1.2.8: {}
 
+<<<<<<< HEAD
+=======
+  minimizer-webpack-plugin@5.6.1(postcss@8.5.26)(webpack@5.109.2):
+    dependencies:
+      '@jridgewell/trace-mapping': 0.3.31
+      jest-worker: 27.5.1
+      schema-utils: 4.3.3
+      terser: 5.50.0
+      webpack: 5.109.2(postcss@8.5.26)(webpack-cli@7.2.2)
+    optionalDependencies:
+      postcss: 8.5.26
+
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
   mitt@3.0.1: {}
 
   mkdirp@0.5.6:
@@ -8254,7 +8284,11 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 4.3.3
       terser: 5.50.0
+<<<<<<< HEAD
       webpack: 5.99.9(esbuild@0.28.2)(postcss@8.5.26)(webpack-cli@7.2.2)
+=======
+      webpack: 5.109.2(postcss@8.5.26)(webpack-cli@7.2.2)
+>>>>>>> c6777179271f97bed734047fcdd7a3d0067157ec
     optionalDependencies:
       esbuild: 0.28.2
       postcss: 8.5.26
